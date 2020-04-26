@@ -1,7 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
-  <title>User guide</title>
+<title>Zeus User guide</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
   <meta http-equiv="Content-Style-Type" content="text/css"/>
   <meta http-equiv="Content-Script-Type" content="text/javascript"/>
@@ -71,7 +73,7 @@
   <li><a href="#history">Version history</a></li>
 </ul>
 
-<!-- ÍÀ×ÀËÎ: Îïèñàíèå: Áîò -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃŽÃ¯Ã¨Ã±Ã Ã­Ã¨Ã¥: ÃÃ®Ã² -->
 <h2 id="description_bot">Description: Bot</h2>
 <ul>
   <li>
@@ -152,9 +154,9 @@
     </ol>
   </li>
  </ul>
-<!-- ÊÎÍ×ÀËÎ: Îïèñàíèå: Áîò -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃŽÃ¯Ã¨Ã±Ã Ã­Ã¨Ã¥: ÃÃ®Ã² -->
 
-<!-- ÍÀ×ÀËÎ: Îïèñàíèå: Ïàíåëü óïðàâëåíèÿ -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃŽÃ¯Ã¨Ã±Ã Ã­Ã¨Ã¥: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿ -->
 <h2 id="description_cp">Description: Control panel</h2>
 <ul>
   <li>
@@ -212,9 +214,9 @@
     </ol>
   </li>
 </ul>
-<!-- ÊÎÍ×ÀËÎ: Îïèñàíèå: Ïàíåëü óïðàâëåíèÿ -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃŽÃ¯Ã¨Ã±Ã Ã­Ã¨Ã¥: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿ -->
 
-<!-- ÍÀ×ÀËÎ: Îïèñàíèå: Ôàéë êîíôèãóðàöèè: HTTP-èíæåêòû/HTTP-ãðàááåðû -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃŽÃ¯Ã¨Ã±Ã Ã­Ã¨Ã¥: Ã”Ã Ã©Ã« ÃªÃ®Ã­Ã´Ã¨Ã£Ã³Ã°Ã Ã¶Ã¨Ã¨: HTTP-Ã¨Ã­Ã¦Ã¥ÃªÃ²Ã»/HTTP-Ã£Ã°Ã Ã¡Ã¡Ã¥Ã°Ã» -->
 <h2 id="config_hi">Configuration file: HTTP-inject/HTTP-grabber.</h2>
 <p>For the convenience of writing, HTTP-inject/HTTP-grabber are recorded in a separate file specified in the configuration file as "DynamicConfig.file_webinjects". Naturally, after creating the end-configuration file, not any additional files are generated.</p>
 <p>The file consists of a list of URLs for which you can specify an unlimited number of any modification thereto or derived from their data. The current URL is the following line:<p>
@@ -314,9 +316,9 @@ LOGIC FOR INCOMPLETE before or after
 
 
 
-<!-- ÊÎÍ×ÀËÎ: Îïèñàíèå: Ôàéë êîíôèãóðàöèè: HTTP-èíæåêòû/HTTP-ãðàááåðû -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃŽÃ¯Ã¨Ã±Ã Ã­Ã¨Ã¥: Ã”Ã Ã©Ã« ÃªÃ®Ã­Ã´Ã¨Ã£Ã³Ã°Ã Ã¶Ã¨Ã¨: HTTP-Ã¨Ã­Ã¦Ã¥ÃªÃ²Ã»/HTTP-Ã£Ã°Ã Ã¡Ã¡Ã¥Ã°Ã» -->
 
-<!-- ÍÀ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Íàñòðîéêà ñåðâåðà -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: ÃÃ Ã±Ã²Ã°Ã®Ã©ÃªÃ  Ã±Ã¥Ã°Ã¢Ã¥Ã°Ã  -->
 <h2 id="cp_server">Control panel: Server configuration</h2>
 <p>The server is the central point of control the botnet, it is engaged in collecting reports of bots and command bots. It is not recommended to use "Virtual Hosting" or "VDS", as with an increase in the botnet, the server will increase, and this kind of web hosting quickly exhaust its resources. You need a "Dedicated Server" (Ded), the recommended minimum configuration:</p>
 <ul>
@@ -360,9 +362,9 @@ LOGIC FOR INCOMPLETE before or after
     <p>Download MySQL: <a href="http://dev.mysql.com/downloads/">http://dev.mysql.com/downloads/</a>.</p>
   </li>
 </ul>
-<!-- ÊÎÍ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Íàñòðîéêà ñåðâåðà -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: ÃÃ Ã±Ã²Ã°Ã®Ã©ÃªÃ  Ã±Ã¥Ã°Ã¢Ã¥Ã°Ã  -->
 
-<!-- ÍÀ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Óñòàíîâêà -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: Ã“Ã±Ã²Ã Ã­Ã®Ã¢ÃªÃ  -->
 <h2 id="cp_install">Control panel: Installation</h2>
 <p>Designation of files and folders:</p>
 <table class="list">
@@ -390,27 +392,27 @@ LOGIC FOR INCOMPLETE before or after
 <p>Once all files are uploaded and are set the rights, need to run in the browser the installer from URL http://server/directory/install/index.php. Follow the on-screen instructions, in case of errors (You will be notified in detail) in the installation process, check the entered data, and proper rights setting to the folder.</p>
 <p>After installing, is recommended to remove the install directory, and rename files cp.php (control panel entrance) and gate.php (gate for bots) to any files you like (the extension cannot be changed).</p>
 <p>Now you can safely enter into the control panel by typing in the browser URL the renamed file cp.php.</p>
-<!-- ÊÎÍ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Óñòàíîâêà -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: Ã“Ã±Ã²Ã Ã­Ã®Ã¢ÃªÃ  -->
 
-<!-- ÍÀ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Îáíîâëåíèå -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: ÃŽÃ¡Ã­Ã®Ã¢Ã«Ã¥Ã­Ã¨Ã¥ -->
 <h2 id="cp_update">Control panel: Update</h2>
 <p>If you have a newer copy of the control panel, and want to update an older version, you must do the following:</p>
 <ol>
   <li>Copy the files of the new panel in place of the old.</li>
   <li>Rename the files cp.php and gate.php under their real names you selected when you installed the old control panel.</li>
   <li>Just in case, re-set the directories rights under <a href="#cp_install">this</a> section.</li>
-  <li>Run the installer throuh a browser URL http://ñåðâåð/äèðåêòîðèÿ/install/index.php, and follow the on-screen instructions. The process of the installer may take quite a long period of time, due to the fact that some of the tables with the reports can be recreated.</li>
+  <li>Run the installer throuh a browser URL http://Ã±Ã¥Ã°Ã¢Ã¥Ã°/Ã¤Ã¨Ã°Ã¥ÃªÃ²Ã®Ã°Ã¨Ã¿/install/index.php, and follow the on-screen instructions. The process of the installer may take quite a long period of time, due to the fact that some of the tables with the reports can be recreated.</li>
   <li>You can use the new control panel.</li>
 </ol>
-<!-- ÊÎÍ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Îáíîâëåíèå -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: ÃŽÃ¡Ã­Ã®Ã¢Ã«Ã¥Ã­Ã¨Ã¥ -->
 
-<!-- ÍÀ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Ôàéë /system/fsarc.php. -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: Ã”Ã Ã©Ã« /system/fsarc.php. -->
 <h2 id="cp_fsarc">Control panel: The file /system/fsarc.php.</h2>
 <p>This file contains a function to call an external archiver. Currently, data logger is used only in the module "Reports::Find in files" (reports_files), and calls to download files and folders in a single archive. By default, configured to Zip archiver, and is universal for both Windows and nix, so all you have to do, is to install into the system this archiver, and give the right to its execution. You can also edit this file to work with any archiver.</p>
 <p>Download Zip: <a href="http://www.info-zip.org/Zip.html">http://www.info-zip.org/Zip.html</a>.</p>
-<!-- ÊÎÍ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Ôàéë /system/fsarc.php. -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: Ã”Ã Ã©Ã« /system/fsarc.php. -->
 
-<!-- ÍÀ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Êîìàíäû, èñïîëüçóåìûå â ñêðèïòàõ -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: ÃŠÃ®Ã¬Ã Ã­Ã¤Ã», Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã¬Ã»Ã¥ Ã¢ Ã±ÃªÃ°Ã¨Ã¯Ã²Ã Ãµ -->
 <h2 id="cp_remotescript_commands">Control panel: Commands, used in scripts</h2>
 <ul>
   <li><p><b>os_shutdown</b></p>
@@ -725,9 +727,9 @@ LOGIC FOR INCOMPLETE before or after
     <p>Remove all (*.sol) cookies of Adobe Flash Player (%APPDATA%\Macromedia\Flash Player) of the current user.</p>
   </li>
 </ul>
-<!-- ÊÎÍ×ÀËÎ: Ïàíåëü óïðàâëåíèÿ: Êîìàíäû, èñïîëüçóåìûå â ñêðèïòàõ -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃÃ Ã­Ã¥Ã«Ã¼ Ã³Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: ÃŠÃ®Ã¬Ã Ã­Ã¤Ã», Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã¬Ã»Ã¥ Ã¢ Ã±ÃªÃ°Ã¨Ã¯Ã²Ã Ãµ -->
 
-<!-- ÍÀ×ÀËÎ: Ðàáîòà ñ Backñonnect-ñåðâåðîì -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃÃ Ã¡Ã®Ã²Ã  Ã± BackÃ±onnect-Ã±Ã¥Ã°Ã¢Ã¥Ã°Ã®Ã¬ -->
 <h2 id="bc">Working with the Backonnect-server</h2>
 <p>Working with the BackConnect with example.</p>
 <ul>
@@ -755,9 +757,9 @@ LOGIC FOR INCOMPLETE before or after
   <li>Not to be allowed to subscribe different bots on one and the same server port at the same time.</li>
   <li>The method of such a connection might be useful for bots, which are outside the NAT, i.e. sometimes WIndows firewall of providers, may block the Internet connection.</li>
 </ol>
-<!-- ÊÎÍ×ÀËÎ: Ðàáîòà ñ Backñonnect-ñåðâåðîì -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃÃ Ã¡Ã®Ã²Ã  Ã± BackÃ±onnect-Ã±Ã¥Ã°Ã¢Ã¥Ã°Ã®Ã¬ -->
 
-<!-- ÍÀ×ÀËÎ: F.A.Q. -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: F.A.Q. -->
 <h2 id="faq">F.A.Q.</h2>
 <ul>
   <li>
@@ -779,9 +781,9 @@ LOGIC FOR INCOMPLETE before or after
     <p>Because, in the use of sophisticated algorithms it makes no sense, encryption only needs to hide traffic. Plus in the RSA only, not knowing the key that is in the Control panel, will not be able to emulate its answers. And what's the point to defend against this?</p>
   </li>
 </ul>
-<!-- ÊÎÍ×ÀËÎ: F.A.Q. -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: F.A.Q. -->
 
-<!-- ÍÀ×ÀËÎ: Èñòîðèÿ âåðñèé -->
+<!-- ÃÃ€Ã—Ã€Ã‹ÃŽ: ÃˆÃ±Ã²Ã®Ã°Ã¨Ã¿ Ã¢Ã¥Ã°Ã±Ã¨Ã© -->
 <h2 id="history">Version history</h2>
 <ul>
   <li><p><b>Version 2.0.0.0, 01.04.2010</b></p><ol>
@@ -854,7 +856,7 @@ LOGIC FOR INCOMPLETE before or after
     <li>RDP + VNC BACKCONNECT ADDED </li>
   </ol></li>
 </ul>
-<!-- ÊÎÍ×ÀËÎ: Èñòîðèÿ âåðñèé -->
+<!-- ÃŠÃŽÃÃ—Ã€Ã‹ÃŽ: ÃˆÃ±Ã²Ã®Ã°Ã¨Ã¿ Ã¢Ã¥Ã°Ã±Ã¨Ã© -->
 
 </body>
 </html>
